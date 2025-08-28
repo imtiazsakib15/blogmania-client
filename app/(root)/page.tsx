@@ -1,12 +1,11 @@
-import Navbar from "@/components/navbar";
+import Hero from "@/components/home/Hero";
 
-const HomaPage = ({ children }: { children: React.ReactNode }) => {
+const HomePage = () => {
   return (
     <>
-      <Navbar />
-      {children}
+      <Hero />
     </>
   );
 };
 
-export default HomaPage;
+export default HomePage;
